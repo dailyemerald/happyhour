@@ -47,8 +47,6 @@ var HappyHourItem = React.createClass({
 	}
 });
 
-$(document).ready(function() {
-	React.renderComponent(
-		<HappyHourList url={"/data.json"} data={[]} />, document.getElementById('container')
-	);	
-});
+React.renderComponent(
+	<HappyHourList url={"/data.json"} data={[]} />, document.getElementById('container')
+);	
