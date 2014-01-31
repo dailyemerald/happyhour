@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Taylor's",
+		"address": "13th and Kincaid",
+		"website": "http://blah",
+		"happy_hours": [
+			{"day_of_week": "Thursday", "start_time": "15:00", "end_time": "17:00", "notes": "The tots are good?"}
+		]
+	},
+	{
+		"name": "Max's",
+		"address": "13th near Ferry St.",
+		"happy_hours": [
+			{"day_of_week": "Tuesday", "start_time": "12:00", "end_time": "1:00", "notes": "None"}
+		]
+	}
+]

@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue";
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.3em;
+	width: 40em;
+	margin: 0 auto;
+	max-width: 100%;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	height: 100%;
+	background: #F3F3F3;
+}
+header, section {
+	padding: 1em;
+	background: #FFF;
+}
