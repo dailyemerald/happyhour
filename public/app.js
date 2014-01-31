@@ -6,27 +6,49 @@ var delta_t = function() {
 	return new Date - window._top;
 }
 
-$(document).ready(function() {
-	$.getJSON('/data.json').success(function(data) {
-		console.log("got data in ", delta_t());
+console.log("at top of app.js at ", delta_t());
 
-		React.renderComponent(
-          <ExampleApplication data={data} />, document.getElementById('container')
-        );
-
-	}).error(function() {
-		alert("couldn't load data! please retry.");
-		// TODO: LOG ERROR
-	});
-
-});
-
-var ExampleApplication = React.createClass({
+var HappyHourList = React.createClass({
+	getInitialState: function() {
+    	return {data: []};
+  	},
+	componentWillMount: function(data) {
+		$.ajax({
+			url: this.props.url,
+			dataType: 'json',
+			type: 'GET',
+			success: function(data) { 
+				console.log("got data.json at", delta_t())
+				this.setState({data: data}) 
+			}.bind(this),
+			error: function(xhr, status, err) { 
+				console.error("data.json", status, err.toString()) 
+			}.bind(this)
+		});
+	},
 	render: function() {
-		console.log(this.props.data, delta_t());
-
-		return <p>
-			{this.props.data[0].name}
-		</p>;
+		var happy_hour_items = this.state.data.map(function(item, index) {			
+			return <HappyHourItem data={item} />
+		});	
+		console.log("built <HappyHourItems> with .map at ", delta_t())
+		return <ul>{happy_hour_items}</ul>;		
 	}
 });      
+
+var HappyHourItem = React.createClass({
+	render: function() {
+		console.log('HappyHourItem', this.props.data, delta_t());
+		return (
+			<li>
+				<h3>{this.props.data.name}</h3>
+				<p class="address">Address: {this.props.data.address}</p>
+			</li>
+		)
+	}
+});
+
+$(document).ready(function() {
+	React.renderComponent(
+		<HappyHourList url={"/data.json"} data={[]} />, document.getElementById('container')
+	);	
+});

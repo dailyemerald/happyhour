@@ -11,7 +11,7 @@
 		"name": "Max's",
 		"address": "13th near Ferry St.",
 		"happy_hours": [
-			{"day_of_week": "Tuesday", "start_time": "12:00", "end_time": "1:00", "notes": "None"}
+			{"day_of_week": "Tuesday", "start_time": "12:00", "end_time": "1:00", "notes": "None"}			
 		]
 	}
 ]
