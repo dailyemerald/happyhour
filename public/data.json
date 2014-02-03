@@ -23,7 +23,7 @@
 	},
 	{
 		"name": "Cornocopia",
-		"address": "13th and Ferry",
+		"address": "207 E 5th Ave",
 		"happy_hours": [
 			{"day_of_week": "Monday", "start_time": "15:00", "end_time": "18:00", "notes": "$3 Micros | $1 off appetizers | $1 off wine"}
 			{"day_of_week": "Tuesday", "start_time": "15:00", "end_time": "18:00", "notes": "$3 Micros | $1 off appetizers | $1 off wine"}
@@ -35,7 +35,7 @@
 	},
 	{
 		"name": "GrowlerU",
-		"address": "13th and Ferry",
+		"address": "1365 Villard St",
 		"happy_hours": [
 			{"day_of_week": "Monday", "start_time": "13:00", "end_time": "21:00", "notes": "$1 off pints | $2 off growler fills"}
 			{"day_of_week": "Tuesday", "start_time": "13:00", "end_time": "21:00", "notes": "$1 off pints | $2 off growler fills"}
