@@ -2,7 +2,8 @@
 	{
 		"name": "Taylor's",
 		"address": "13th and Kincaid",
-		"website": "http://blah",
+		"website": "https://www.facebook.com/taylorsbaroregon",
+		"phone": "(541) 344-6174",
 		"happy_hours": [
 			{"day_of_week": "Thursday", "start_time": "15:00", "end_time": "17:00", "notes": "The tots are good?"}
 		]
@@ -10,6 +11,8 @@
 	{
 		"name": "Max's",
 		"address": "13th and Ferry",
+		"website": "https://www.facebook.com/pages/Maxs-Tavern/181179818588418",
+		"phone": "(541) 349-8986",
 		"happy_hours": [
 			{"day_of_week": "Monday", "start_time": "16:00", "end_time": "20:00", "notes": "Everything is just a little bit cheeeaper - Bartender"}
 			{"day_of_week": "Tuesday", "start_time": "16:00", "end_time": "20:00", "notes": "Everything is just a little bit cheeeaper - Bartender"}
@@ -22,8 +25,10 @@
 		]
 	},
 	{
-		"name": "Cornocopia",
+		"name": "Cornucopia",
 		"address": "207 E 5th Ave",
+		"website": "http://www.cornucopiaeugene.com/the-corn-on-5th",
+		"phone": "(541) 485-2676",
 		"happy_hours": [
 			{"day_of_week": "Monday", "start_time": "15:00", "end_time": "18:00", "notes": "$3 Micros | $1 off appetizers | $1 off wine"}
 			{"day_of_week": "Tuesday", "start_time": "15:00", "end_time": "18:00", "notes": "$3 Micros | $1 off appetizers | $1 off wine"}
@@ -36,6 +41,8 @@
 	{
 		"name": "GrowlerU",
 		"address": "1365 Villard St",
+		"website": "http://www.growleru.com",
+		"phone": "(541) 762-0488",
 		"happy_hours": [
 			{"day_of_week": "Monday", "start_time": "13:00", "end_time": "21:00", "notes": "$1 off pints | $2 off growler fills"}
 			{"day_of_week": "Tuesday", "start_time": "13:00", "end_time": "21:00", "notes": "$1 off pints | $2 off growler fills"}
