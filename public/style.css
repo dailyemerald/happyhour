@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: "Helvetica Neue";
+	
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 1.3em;
@@ -17,13 +17,11 @@ body {
 header, section {
 	padding: 1.1em;
 	background: #FFF;
-
-
 }
 
 h1{
 	margin-left:60px;
-	font-family: 'Exo';
+	font-family: "Helvetica Neue";
 	font-weight:600;
 
 }
@@ -31,18 +29,21 @@ h1{
 
 	position:relative;
 	background-color:;
-	margin-left:40px;
-	font-family: 'Exo';
+	margin-left:45px;
+	font-family: "Helvetica Neue";
 	font-size:29px;
 	font-weight:200;
 	color:#FFF;
 	z-index:1;
 	padding-left:60%;
-	padding-top:25px;
+	padding-top:26px;
 }
 
 ul {
 	list-style-type:none;
+}
+li {
+	font-family: "Helvetica Neue";
 }
 .nav {
 	background-color:#2b282f;
@@ -58,7 +59,7 @@ ul {
 	border-left: 0px solid #CCC;
 	border-right: 0px solid #CCC;
 	height: 72px;
-	font-family: 'Exo';
+	font-family: "Helvetica Neue";
 	font-weight:400;
 
 }
