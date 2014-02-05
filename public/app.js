@@ -7,7 +7,7 @@ var delta_t = function() {
 }
 
 var current_day_of_week = function() {
-	var days = {
+	return ({
 		0: 'Sunday',
 		1: 'Monday',
 		2: 'Tuesday',
@@ -15,8 +15,7 @@ var current_day_of_week = function() {
 		4: 'Thursday',
 		5: 'Friday',
 		6: 'Saturday'
-	}
-	return days[(new Date()).getDay()];
+	})[(new Date()).getDay()];
 }
 
 var flatten_bars = function(bars) {
@@ -27,12 +26,10 @@ var flatten_bars = function(bars) {
 			output.push(o);
 		});
 	});
-	console.log('flatten_bars', output);
 	return output;
 }
 
 var get_happy_hours_by_day = function(all_happy_hours, day_of_week) {
-	console.log('get_happy_hours_by_day');
 	var result_happy_hours = [];
 	all_happy_hours.forEach(function(item) {
 		if (item.happy_hour.day_of_week == day_of_week) {
@@ -42,14 +39,24 @@ var get_happy_hours_by_day = function(all_happy_hours, day_of_week) {
 	return result_happy_hours;
 }
 
-console.log("at top of app.js at ", delta_t());
-console.log("today is", current_day_of_week());
-
-
+var human_time = function(time_string) {
+	var time_pieces = time_string.split(":");
+	var hours = parseInt(time_pieces[0], 10)
+	var minutes = time_pieces[1];
+	if (hours > 12) {
+		return (hours-12) + ":" + minutes + " p.m."
+	} else if (hours == 12) {
+		return "12:" + time + "p.m."
+	} else if (hours < 12) {
+		return hours + ":" + minutes + " a.m."		
+	} else {
+		return "can't parse time"
+	}
+}
 
 var HappyHourList = React.createClass({
 	getInitialState: function() {
-    	return {data: [], today: [], all_happy_hours: []};
+    	return {data: [], today: [], all_happy_hours: [], day_of_week: current_day_of_week() };
   	},
 	componentWillMount: function(data) {
 		$.ajax({
@@ -57,10 +64,9 @@ var HappyHourList = React.createClass({
 			dataType: 'json',
 			type: 'GET',
 			success: function(data) { 
-				console.log("got data.json at", delta_t());	
+				console.log("parsing data.json", delta_t());	
 				var all_happy_hours = flatten_bars(data);					
 				var today = get_happy_hours_by_day(all_happy_hours, current_day_of_week());
-				console.log('today', today);
 				this.setState({data: data, today: today, all_happy_hours: all_happy_hours});
 			}.bind(this),
 			error: function(xhr, status, err) { 
@@ -69,7 +75,6 @@ var HappyHourList = React.createClass({
 		});
 	},
 	render: function() {
-		console.log('!!!! this.state.today', this.state.today)
 		var happy_hour_items_today = this.state.today.map(function(item, index) {			
 			return <HappyHourItem data={item} />
 		});
@@ -87,15 +92,11 @@ var HappyHourList = React.createClass({
 
 var HappyHourItem = React.createClass({
 	render: function() {
-		//console.log('HappyHourItem', this.props.data, delta_t());
 		return (
 			<li>
 				<h3>{this.props.data.bar.name}</h3>
-				<p>{this.props.data.bar.phone}</p>
-				<p>{this.props.data.happy_hour.day_of_week}</p>
-				<p>{this.props.data.happy_hour.start_time} - {this.props.data.happy_hour.end_time}</p>
-				<p><i>{this.props.data.happy_hour.notes}</i></p>
-				
+				<p>{human_time(this.props.data.happy_hour.start_time)} - {human_time(this.props.data.happy_hour.end_time)}</p>
+				<p><i>{this.props.data.happy_hour.notes}</i></p>				
 			</li>
 		)
 	}
