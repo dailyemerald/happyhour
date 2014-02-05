@@ -46,7 +46,7 @@ var human_time = function(time_string) {
 	if (hours > 12) {
 		return (hours-12) + ":" + minutes + " p.m."
 	} else if (hours == 12) {
-		return "12:" + time + "p.m."
+		return "12:" + minutes + "p.m."
 	} else if (hours < 12) {
 		return hours + ":" + minutes + " a.m."		
 	} else {
