@@ -5,7 +5,13 @@
 		"website": "https://www.facebook.com/taylorsbaroregon",
 		"phone": "(541) 344-6174",
 		"happy_hours": [
-			{"day_of_week": "Thursday", "start_time": "15:00", "end_time": "17:00", "notes": "The tots are good?"}
+			{"day_of_week": "Monday",    "start_time": "17:00", "end_time": "20:00", "notes": "$1 off pints | $1.25 off mixed drinks | $2 off pitchers"},
+			{"day_of_week": "Tuesday",   "start_time": "17:00", "end_time": "20:00", "notes": "$1 off pints | $1.25 off mixed drinks | $2 off pitchers"},
+			{"day_of_week": "Wednesday", "start_time": "17:00", "end_time": "20:00", "notes": "$1 off pints | $1.25 off mixed drinks | $2 off pitchers"},
+			{"day_of_week": "Thursday",  "start_time": "17:00", "end_time": "20:00", "notes": "$1 off pints | $1.25 off mixed drinks | $2 off pitchers"},
+			{"day_of_week": "Friday",    "start_time": "17:00", "end_time": "20:00", "notes": "$1 off pints | $1.25 off mixed drinks | $2 off pitchers"},
+			{"day_of_week": "Saturday",  "start_time": "17:00", "end_time": "20:00", "notes": "$1 off pints | $1.25 off mixed drinks | $2 off pitchers"}
+		
 		]
 	},
 	{
@@ -14,13 +20,13 @@
 		"website": "https://www.facebook.com/pages/Maxs-Tavern/181179818588418",
 		"phone": "(541) 349-8986",
 		"happy_hours": [
-			{"day_of_week": "Monday", "start_time": "16:00", "end_time": "20:00", "notes": "Everything is just a little bit cheeeaper - Bartender"},
-			{"day_of_week": "Tuesday", "start_time": "16:00", "end_time": "20:00", "notes": "Everything is just a little bit cheeeaper - Bartender"},
+			{"day_of_week": "Monday",    "start_time": "16:00", "end_time": "20:00", "notes": "Everything is just a little bit cheeeaper - Bartender"},
+			{"day_of_week": "Tuesday",   "start_time": "16:00", "end_time": "20:00", "notes": "Everything is just a little bit cheeeaper - Bartender"},
 			{"day_of_week": "Wednesday", "start_time": "16:00", "end_time": "20:00", "notes": "Everything is just a little bit cheeeaper - Bartender"},
-			{"day_of_week": "Thursday", "start_time": "16:00", "end_time": "20:00", "notes": "Everything is just a little bit cheeeaper - Bartender"},
-			{"day_of_week": "Friday", "start_time": "16:00", "end_time": "20:00", "notes": "Everything is just a little bit cheeeaper - Bartender"},
-			{"day_of_week": "Saturday", "start_time": "16:00", "end_time": "20:00", "notes": "Everything is just a little bit cheeeaper - Bartender"},
-			{"day_of_week": "Sunday", "start_time": "16:00", "end_time": "20:00", "notes": "Everything is just a little bit cheeeaper - Bartender"}
+			{"day_of_week": "Thursday",  "start_time": "16:00", "end_time": "20:00", "notes": "Everything is just a little bit cheeeaper - Bartender"},
+			{"day_of_week": "Friday",    "start_time": "16:00", "end_time": "20:00", "notes": "Everything is just a little bit cheeeaper - Bartender"},
+			{"day_of_week": "Saturday",  "start_time": "16:00", "end_time": "20:00", "notes": "Everything is just a little bit cheeeaper - Bartender"},
+			{"day_of_week": "Sunday",    "start_time": "16:00", "end_time": "20:00", "notes": "Everything is just a little bit cheeeaper - Bartender"}
 
 		]
 	},
@@ -30,11 +36,11 @@
 		"website": "http://www.cornucopiaeugene.com/the-corn-on-5th",
 		"phone": "(541) 485-2676",
 		"happy_hours": [
-			{"day_of_week": "Monday", "start_time": "15:00", "end_time": "18:00", "notes": "$3 Micros | $1 off appetizers | $1 off wine"},
-			{"day_of_week": "Tuesday", "start_time": "15:00", "end_time": "18:00", "notes": "$3 Micros | $1 off appetizers | $1 off wine"},
+			{"day_of_week": "Monday",    "start_time": "15:00", "end_time": "18:00", "notes": "$3 Micros | $1 off appetizers | $1 off wine"},
+			{"day_of_week": "Tuesday",   "start_time": "15:00", "end_time": "18:00", "notes": "$3 Micros | $1 off appetizers | $1 off wine"},
 			{"day_of_week": "Wednesday", "start_time": "15:00", "end_time": "18:00", "notes": "$3 Micros | $1 off appetizers | $1 off wine"},
-			{"day_of_week": "Thursday", "start_time": "15:00", "end_time": "18:00", "notes": "$3 Micros | $1 off appetizers | $1 off wine"},
-			{"day_of_week": "Friday", "start_time": "15:00", "end_time": "18:00", "notes": "$3 Micros | $1 off appetizers | $1 off wine"}
+			{"day_of_week": "Thursday",  "start_time": "15:00", "end_time": "18:00", "notes": "$3 Micros | $1 off appetizers | $1 off wine"},
+			{"day_of_week": "Friday",    "start_time": "15:00", "end_time": "18:00", "notes": "$3 Micros | $1 off appetizers | $1 off wine"}
 
 		]
 	},
@@ -44,8 +50,34 @@
 		"website": "http://www.growleru.com",
 		"phone": "(541) 762-0488",
 		"happy_hours": [
-			{"day_of_week": "Monday", "start_time": "13:00", "end_time": "21:00", "notes": "$1 off pints | $2 off growler fills"},
+			{"day_of_week": "Monday",  "start_time": "13:00", "end_time": "21:00", "notes": "$1 off pints | $2 off growler fills"},
 			{"day_of_week": "Tuesday", "start_time": "13:00", "end_time": "21:00", "notes": "$1 off pints | $2 off growler fills"}
+
+		]
+	},
+	{
+		"name": "Rennie's Landing",
+		"address": "1214 Kincaid St",
+		"website": "http://www.rennieslanding.com/",
+		"phone": "(541) 687-0600",
+		"happy_hours": [
+			{"day_of_week": "Monday",    "start_time": "16:00", "end_time": "19:00", "notes": "$2.50 mixed drinks | $4.50 double mixed drinks | $6.50 domestic pitchers | $2.75 domestic pints | $X micro pints"},
+			{"day_of_week": "Tuesday",   "start_time": "16:00", "end_time": "19:00", "notes": "$2.50 mixed drinks | $4.50 double mixed drinks | $6.50 domestic pitchers | $2.75 domestic pints | $X micro pints"},
+			{"day_of_week": "Wednesday", "start_time": "16:00", "end_time": "19:00", "notes": "$2.50 mixed drinks | $4.50 double mixed drinks | $6.50 domestic pitchers | $2.75 domestic pints | $X micro pints"},
+			{"day_of_week": "Thursday",  "start_time": "16:00", "end_time": "19:00", "notes": "$2.50 mixed drinks | $4.50 double mixed drinks | $6.50 domestic pitchers | $2.75 domestic pints | $X micro pints"},
+			{"day_of_week": "Friday",    "start_time": "16:00", "end_time": "19:00", "notes": "$2.50 mixed drinks | $4.50 double mixed drinks | $6.50 domestic pitchers | $2.75 domestic pints | $X micro pints"},
+			
+
+		]
+	},
+	{
+		"name": "Fathoms",
+		"address": "790 E 14th Ave (Basement)",
+		"website": "http://www.pegasuspizza.net/fathoms.php",
+		"phone": "(541) 344-4471",
+		"happy_hours": [
+			{"day_of_week": "Monday", "start_time": "x:00", "end_time": "x:00", "notes": "x"},
+			
 
 		]
 	}
