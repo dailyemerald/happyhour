@@ -61,11 +61,11 @@
 		"website": "http://www.rennieslanding.com/",
 		"phone": "(541) 687-0600",
 		"happy_hours": [
-			{"day_of_week": "Monday",    "start_time": "16:00", "end_time": "19:00", "notes": "$2.50 mixed drinks | $4.50 double mixed drinks | $6.50 domestic pitchers | $2.75 domestic pints | $X micro pints"},
-			{"day_of_week": "Tuesday",   "start_time": "16:00", "end_time": "19:00", "notes": "$2.50 mixed drinks | $4.50 double mixed drinks | $6.50 domestic pitchers | $2.75 domestic pints | $X micro pints"},
-			{"day_of_week": "Wednesday", "start_time": "16:00", "end_time": "19:00", "notes": "$2.50 mixed drinks | $4.50 double mixed drinks | $6.50 domestic pitchers | $2.75 domestic pints | $X micro pints"},
-			{"day_of_week": "Thursday",  "start_time": "16:00", "end_time": "19:00", "notes": "$2.50 mixed drinks | $4.50 double mixed drinks | $6.50 domestic pitchers | $2.75 domestic pints | $X micro pints"},
-			{"day_of_week": "Friday",    "start_time": "16:00", "end_time": "19:00", "notes": "$2.50 mixed drinks | $4.50 double mixed drinks | $6.50 domestic pitchers | $2.75 domestic pints | $X micro pints"},
+			{"day_of_week": "Monday",    "start_time": "16:00", "end_time": "19:00", "notes": "$2.50 mixed drinks | $4.50 double mixed drinks | $6.50 domestic pitchers | $2.75 domestic pints | $8.95 micro pitchers"},
+			{"day_of_week": "Tuesday",   "start_time": "16:00", "end_time": "19:00", "notes": "$2.50 mixed drinks | $4.50 double mixed drinks | $6.50 domestic pitchers | $2.75 domestic pints | $8.95 micro pitchers"},
+			{"day_of_week": "Wednesday", "start_time": "16:00", "end_time": "19:00", "notes": "$2.50 mixed drinks | $4.50 double mixed drinks | $6.50 domestic pitchers | $2.75 domestic pints | $8.95 micro pitchers"},
+			{"day_of_week": "Thursday",  "start_time": "16:00", "end_time": "19:00", "notes": "$2.50 mixed drinks | $4.50 double mixed drinks | $6.50 domestic pitchers | $2.75 domestic pints | $8.95 micro pitchers"},
+			{"day_of_week": "Friday",    "start_time": "16:00", "end_time": "19:00", "notes": "$2.50 mixed drinks | $4.50 double mixed drinks | $6.50 domestic pitchers | $2.75 domestic pints | $8.95 micro pitchers"}
 			
 
 		]
@@ -76,10 +76,27 @@
 		"website": "http://www.pegasuspizza.net/fathoms.php",
 		"phone": "(541) 344-4471",
 		"happy_hours": [
-			{"day_of_week": "Monday", "start_time": "x:00", "end_time": "x:00", "notes": "x"},
+			{"day_of_week": "Monday", "start_time": "x:00", "end_time": "x:00", "notes": "x"}
 			
 
 		]
+	},
+	{
+		"name": "Agate Alley",
+		"address": "1461 E. 19th Ave.",
+		"website": "http://www.agatealley.com/",
+		"phone": "(541) 485-8887",
+		"happy_hours": [
+			{"day_of_week": "Monday",    "start_time": "15:00", "end_time": "18:00", "notes": "$3.50 well drinks | $3 pints | $9 pitchers | $1 off wine | $1 off special cocktails"},
+			{"day_of_week": "Tuesday",   "start_time": "15:00", "end_time": "18:00", "notes": "$3.50 well drinks | $3 pints | $9 pitchers | $1 off wine | $1 off special cocktails"},
+			{"day_of_week": "Wednesday", "start_time": "15:00", "end_time": "18:00", "notes": "$3.50 well drinks | $3 pints | $9 pitchers | $1 off wine | $1 off special cocktails"},
+			{"day_of_week": "Thursday",  "start_time": "15:00", "end_time": "18:00", "notes": "$3.50 well drinks | $3 pints | $9 pitchers | $1 off wine | $1 off special cocktails"},
+			{"day_of_week": "Friday",    "start_time": "15:00", "end_time": "18:00", "notes": "$3.50 well drinks | $3 pints | $9 pitchers | $1 off wine | $1 off special cocktails"},
+			{"day_of_week": "Saturday",  "start_time": "15:00", "end_time": "18:00", "notes": "$3.50 well drinks | $3 pints | $9 pitchers | $1 off wine | $1 off special cocktails"},
+			{"day_of_week": "Sunday",    "start_time": "15:00", "end_time": "18:00", "notes": "$3.50 well drinks | $3 pints | $9 pitchers | $1 off wine | $1 off special cocktails"}
+
+		]
 	}
+
 
 ]
