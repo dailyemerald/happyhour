@@ -4,7 +4,7 @@ body {
 	
 	font-weight: 300;
 	font-size: 18px;
-	line-height: 1.3em;
+	line-height: 1em;
 	width: 40em;
 	margin: 0 auto;
 	max-width: 100%;
@@ -14,10 +14,6 @@ body {
 	background: #F7F7F7;
 
 }
-header, section {
-	padding: 1.1em;
-	background: #FFF;
-}
 
 h1{
 	margin-left:60px;
@@ -25,22 +21,24 @@ h1{
 	font-weight:600;
 
 }
-.dateline{
 
-	position:relative;
-	background-color:;
-	margin-left:45px;
+.position{
+	padding-bottom:50px;
+
+}
+
+#dateline{
 	font-family: "Helvetica Neue";
-	font-size:29px;
-	font-weight:200;
-	color:#FFF;
-	z-index:1;
-	padding-left:60%;
-	padding-top:26px;
+	font-weight:100;
+
+
+
 }
 
 ul {
 	list-style-type:none;
+	padding-top:20px;
+	padding-left:60px;
 }
 li {
 	font-family: "Helvetica Neue";
@@ -61,6 +59,7 @@ li {
 	height: 72px;
 	font-family: "Helvetica Neue";
 	font-weight:400;
+	margin-bottom:90px;
 
 }
 
