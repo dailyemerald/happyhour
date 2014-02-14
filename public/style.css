@@ -4,7 +4,7 @@ body {
 	
 	font-weight: 300;
 	font-size: 18px;
-	line-height: 1em;
+	line-height: 1.3em;
 	width: 40em;
 	margin: 0 auto;
 	max-width: 100%;
@@ -19,12 +19,12 @@ h1{
 	margin-left:60px;
 	font-family: "Helvetica Neue";
 	font-weight:600;
+	line-height:1em;
 
 }
 
-.position{
-	padding-bottom:50px;
-
+.wrapper{
+	position:relative;
 }
 
 #dateline{
@@ -46,26 +46,25 @@ li {
 .nav {
 	background-color:#2b282f;
 	color:#FFF;
-	position:absolute;
-	margin: 0;
+	position:relative;
+	margin-bottom:1em;
 	padding: 0;
 	font-size: 18px;
 	line-height: 1.3em;
 	width: 40em;
-	margin: 0 auto;
+	
 	max-width: 100%;
 	border-left: 0px solid #CCC;
 	border-right: 0px solid #CCC;
-	height: 72px;
 	font-family: "Helvetica Neue";
 	font-weight:400;
-	margin-bottom:90px;
+	float:left;
 
 }
 
 section{
-	padding-top:55px;
-
-
+	max-width:35em;
+	padding-top:2em;
+	position:relative;
 
 }
